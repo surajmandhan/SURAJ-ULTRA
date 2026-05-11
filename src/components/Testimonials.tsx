@@ -75,8 +75,8 @@ const Testimonials = () => {
       </SectionHeading>
  
       <div className="flex flex-col gap-8">
-        <TestimonialRow testimonials={testimonials} speed="fast" direction="right" />
-        <TestimonialRow testimonials={testimonials} speed="fast" direction="left" />
+        <TestimonialRow testimonials={testimonials} speed="normal" direction="right" />
+        <TestimonialRow testimonials={testimonials} speed="normal" direction="left" />
       </div>
     </section>
   );
