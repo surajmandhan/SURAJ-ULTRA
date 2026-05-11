@@ -19,17 +19,17 @@ export const SlideIn = ({
   viewport,
   ...rest
 }: Props) => {
-  const init = initial ? initial : { opacity: 0, y: "100%" };
+  const init = initial ? initial : { opacity: 0, y: 20 };
   const inView = whileInView ? whileInView : { opacity: 1, y: 0 };
-  const trans = transition ? transition : { duration: 0.5, delay: 0.3 };
+  const trans = transition ? transition : { duration: 0.4, delay: 0.1 };
 
   return (
     <motion.span
       initial={init}
       whileInView={inView}
       transition={trans}
-      viewport={viewport ? viewport : { once: true }}
-      className={cn("inline-block overflow-hidden", className)}
+      viewport={viewport ? viewport : { once: true, amount: 0.1 }}
+      className={cn("inline-block overflow-hidden will-change-transform", className)}
       {...rest}
     />
   );
@@ -40,17 +40,20 @@ export const Transition = ({
   initial,
   whileInView,
   transition,
+  viewport,
   ...rest
 }: TransitionProps) => {
-  const init = initial ? initial : { opacity: 0 };
-  const inView = whileInView ? whileInView : { opacity: 1 };
-  const trans = transition ? transition : { duration: 0.8, delay: 0.4 };
+  const init = initial ? initial : { opacity: 0, y: 20 };
+  const inView = whileInView ? whileInView : { opacity: 1, y: 0 };
+  const trans = transition ? transition : { duration: 0.5, delay: 0.1 };
 
   return (
     <motion.div
       initial={init}
       whileInView={inView}
       transition={trans}
+      viewport={viewport ? viewport : { once: true, amount: 0.1 }}
+      className={cn("will-change-transform", rest.className)}
       {...rest}
     />
   );
@@ -66,9 +69,9 @@ export const OpacityTextReveal = (props: HTMLAttributes<HTMLSpanElement>) => {
         ease: "none",
         scrollTrigger: {
           trigger: textRef.current,
-          scrub: 1,
-          start: "top 80%",
-          end: "bottom 20%",
+          scrub: 0.2,
+          start: "top 85%",
+          end: "bottom 15%",
         },
       });
     },

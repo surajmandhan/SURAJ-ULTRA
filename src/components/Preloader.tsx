@@ -24,7 +24,7 @@ export default function Preloader() {
         }
         return prev + 1;
       });
-    }, 30);
+    }, 12);
 
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
@@ -39,7 +39,7 @@ export default function Preloader() {
       style={{ opacity }}
     >
       <div className={styles['preloader-brand']}>
-        <Image src="/images/Logo(B).svg" alt="UltraTechHub" width={120} height={120} className="object-contain rounded-xl" />
+        <Image src="/images/Logo(B).svg" alt="UltraTechHub" width={120} height={120} className="object-contain rounded-xl" priority />
         UltraTechHub
       </div>
 

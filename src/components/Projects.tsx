@@ -145,7 +145,7 @@ const Card = ({ title, image, techStack }: Project) => {
 
   return (
     <motion.div
-      layout
+      layout="position"
       className="relative rounded-3xl overflow-hidden aspect-square bg-zinc-900/50 border border-white/10 group flex flex-col"
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}

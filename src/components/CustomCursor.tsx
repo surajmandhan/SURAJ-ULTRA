@@ -46,8 +46,8 @@ export default function CustomCursor() {
     };
 
     const animate = () => {
-      ring.current.x += (mouse.current.x - ring.current.x) * 0.2;
-      ring.current.y += (mouse.current.y - ring.current.y) * 0.2;
+      ring.current.x += (mouse.current.x - ring.current.x) * 0.35;
+      ring.current.y += (mouse.current.y - ring.current.y) * 0.35;
       const half = ringSizeRef.current / 2;
       ringEl.style.transform = `translate3d(${ring.current.x - half}px, ${ring.current.y - half}px, 0)`;
       rafRef.current = requestAnimationFrame(animate);
