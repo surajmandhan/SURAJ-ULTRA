@@ -23,30 +23,33 @@ function Projects() {
       title: tl('0.title'),
       description: tl('0.description'),
       techStack: [tl('0.techStack.0'), tl('0.techStack.1'), tl('0.techStack.2')],
-      image: { url: tl('0.image') },
+      image: { url: tl('0.image'), public_id: "" },
       liveurl: "#",
       githuburl: "#",
-      enabled: true
+      enabled: true,
+      sequence: 1
     },
     {
       _id: "p2",
       title: tl('1.title'),
       description: tl('1.description'),
       techStack: [tl('1.techStack.0'), tl('1.techStack.1'), tl('1.techStack.2')],
-      image: { url: tl('1.image') },
+      image: { url: tl('1.image'), public_id: "" },
       liveurl: "#",
       githuburl: "#",
-      enabled: true
+      enabled: true,
+      sequence: 2
     },
     {
       _id: "p3",
       title: tl('2.title'),
       description: tl('2.description'),
       techStack: [tl('2.techStack.0'), tl('2.techStack.1'), tl('2.techStack.2')],
-      image: { url: tl('2.image') },
+      image: { url: tl('2.image'), public_id: "" },
       liveurl: "#",
       githuburl: "#",
-      enabled: true
+      enabled: true,
+      sequence: 3
     }
   ];
 

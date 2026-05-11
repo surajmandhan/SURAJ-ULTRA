@@ -47,7 +47,7 @@ const ProjectDialog = ({
               </div>
             </div>
             <div className="py-3 flex flex-wrap items-center gap-3 mb-6">
-              {selectedProject.techStack.map((tech, index) => (
+              {selectedProject.techStack.map((tech: string, index: number) => (
                 <span
                   key={index}
                   className="px-4 py-1.5 bg-white/5 border border-white/10 rounded-full text-sm text-zinc-300"

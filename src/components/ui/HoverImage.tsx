@@ -32,7 +32,7 @@ export const HoverImage = ({
   const left = useTransform(mouseXSpring, [0.5, -0.5], ["60%", "70%"]);
 
   const handleMouseMove = (
-    e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
+    e: React.MouseEvent<HTMLDivElement, MouseEvent>
   ) => {
     if (!ref.current) return;
     const rect = ref.current.getBoundingClientRect();

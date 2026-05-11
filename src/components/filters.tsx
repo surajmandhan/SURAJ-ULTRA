@@ -39,7 +39,7 @@ const Filters = ({ projects, filterValue, setFilterValue }: FilterProps) => {
                   : "border-white/10 text-white/40 hover:text-white hover:border-white/40"
               )}
             >
-              <AnimatePresence transition={{ duration: 0.4 }}>
+              <AnimatePresence>
                 {isActive && (
                   <motion.span
                     layoutId="active-filter"
