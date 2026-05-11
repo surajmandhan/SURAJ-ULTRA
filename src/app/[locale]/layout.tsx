@@ -16,6 +16,8 @@ export const metadata: Metadata = {
 
 import { ThemeProvider } from '@/components/ThemeProvider';
 
+import SmoothScroll from '@/components/ui/SmoothScroll';
+
 export default async function LocaleLayout({
   children,
   params,
@@ -43,7 +45,9 @@ export default async function LocaleLayout({
         <Preloader />
         <LangSetter locale={locale} />
         <Header />
-        {children}
+        <SmoothScroll>
+          {children}
+        </SmoothScroll>
       </ThemeProvider>
     </NextIntlClientProvider>
   );
