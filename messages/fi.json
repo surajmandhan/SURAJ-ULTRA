@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "about": "About us",
+    "process": "Processes",
+    "portfolio": "Portfolio",
+    "stats": "Our stats",
+    "contact": "Contact us"
+  },
+  "hero": {
+    "badge": "Digital Agency",
+    "heading1": "Full-Stack Digital Agency",
+    "heading2": "FOR",
+    "tagline": "We Don't Just Build — We Elevate.",
+    "subtitle": "Your vision, our expertise. We turn ideas into high-performing websites and web applications.",
+    "cta1": "Start a Project",
+    "cta2": "View Our Work",
+    "stat1": "Projects Delivered",
+    "stat2": "Years Experience",
+    "stat3": "Client Satisfaction"
+  },
+  "about": {
+    "title": "About Our Agency",
+    "quote": "In the heart of innovation, we blend creativity with technology to redefine the digital landscape.",
+    "description": "Our passion lies in crafting solutions that don't just work, but inspire and empower businesses worldwide. We are a team of dreamers and builders dedicated to pushing the boundaries of what's possible in the digital realm. Join us on a journey where every pixel tells a story and every line of code is a step towards excellence."
+  },
+  "services": {
+    "title1": "Here's how",
+    "title2": "I can help you",
+    "cta": "Learn More"
+  },
+  "projects": {
+    "title1": "Selected",
+    "title2": "works",
+    "more": "Show more",
+    "less": "Show less",
+    "explore": "Explore",
+    "visit": "Visit"
+  },
+  "testimonials": {
+    "title1": "What Our",
+    "title2": "Clients Say"
+  },
+  "contact": {
+    "title1": "Let's",
+    "title2": "Work Together",
+    "subtitle": "I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Tell us about your project...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message."
+    },
+    "info": {
+      "email": "Email Us",
+      "email_value": "work.tehseen@gmail.com",
+      "social": "Follow Us",
+      "address": "Our Office",
+      "address_value": "Los Angeles, America"
+    }
+  },
+  "skills": [
+    { "name": "C++" },
+    { "name": "Python" },
+    { "name": "Docker" },
+    { "name": "Figma" },
+    { "name": "TypeScript" },
+    { "name": "Node.js" },
+    { "name": "MongoDB" },
+    { "name": "Three.js" },
+    { "name": "Redux" },
+    { "name": "Javascript" },
+    { "name": "Git" },
+    { "name": "Github" },
+    { "name": "Sass" },
+    { "name": "GraphQl" },
+    { "name": "Vercel" },
+    { "name": "Next.js" },
+    { "name": "React" },
+    { "name": "Tailwind" },
+    { "name": "CSS" },
+    { "name": "HTML" }
+  ],
+  "services_list": [
+    {
+      "name": "Shopify Development",
+      "desc": "High-converting Shopify stores built for performance, scalability, and seamless shopping experiences.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710364293287-4q1ngo.webp"
+    },
+    {
+      "name": "Web Development",
+      "desc": "Fast, responsive, and scalable websites tailored to your business needs.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357775748-9vwq4q.jpeg"
+    },
+    {
+      "name": "Mobile App Development",
+      "desc": "Custom mobile apps designed for smooth performance and exceptional user experience.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706290914024-725ytf"
+    },
+    {
+      "name": "Ecommerce Development",
+      "desc": "Powerful eCommerce solutions that drive sales and optimize customer journeys.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357668346-ke8kgt.jpeg"
+    },
+    {
+      "name": "UI/UX Design",
+      "desc": "Modern, user-centric designs that enhance usability and engagement.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357680224-phijt.png"
+    },
+    {
+      "name": "Graphic Design",
+      "desc": "Creative visuals and branding that make your business stand out.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357752227-6f5trs.jpeg"
+    }
+  ],
+  "projects_list": [
+    {
+      "title": "UltraTech Dashboard",
+      "description": "A high-performance analytics dashboard for monitoring cloud infrastructure and user engagement.",
+      "techStack": ["React", "Next.js", "TailwindCSS"],
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285511679-xe7r9t"
+    },
+    {
+      "title": "E-Commerce Platform",
+      "description": "A scalable e-commerce solution with integrated payment gateways and real-time inventory tracking.",
+      "techStack": ["Next.js", "Shopify", "Node.js"],
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285468702-igx05q"
+    },
+    {
+      "title": "AI Image Generator",
+      "description": "An intuitive web application that leverages machine learning models to generate unique digital art.",
+      "techStack": ["React", "Python", "OpenAI API"],
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285431821-3lfg2r"
+    }
+  ],
+  "testimonials_list": [
+    {
+      "name": "Samantha Wu",
+      "position": "Software Engineer",
+      "review": "I had the pleasure of working closely with the team on a challenging project. They are highly skilled and consistently delivered excellent results."
+    },
+    {
+      "name": "David Rodriguez",
+      "position": "Project Manager",
+      "review": "They demonstrated exceptional technical skills and a strong work ethic. They consistently met deadlines and produced high-quality code."
+    }
+  ]
+}
+

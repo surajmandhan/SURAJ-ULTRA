@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "process": "Prozesse",
+    "portfolio": "Portfolio",
+    "stats": "Statistiken",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Digitale Agentur",
+    "heading1": "Full-Stack Digitalagentur",
+    "heading2": "FÜR",
+    "tagline": "Wir bauen nicht nur – wir heben ab.",
+    "subtitle": "Ihre Vision, unsere Expertise. Wir verwandeln Ideen in leistungsstarke Websites.",
+    "cta1": "Projekt starten",
+    "cta2": "Unsere Arbeit",
+    "stat1": "Gelieferte Projekte",
+    "stat2": "Jahre Erfahrung",
+    "stat3": "Kundenzufriedenheit"
+  },
+  "about": {
+    "title": "Über unsere Agentur",
+    "quote": "Im Herzen der Innovation verbinden wir Kreativität mit Technologie.",
+    "description": "Unsere Leidenschaft liegt darin, Lösungen zu schaffen, die nicht nur funktionieren, sondern inspirieren."
+  },
+  "services": {
+    "title1": "So können wir",
+    "title2": "Ihnen helfen",
+    "cta": "Mehr erfahren"
+  },
+  "projects": {
+    "title1": "Ausgewählte",
+    "title2": "Arbeiten",
+    "more": "Mehr anzeigen",
+    "less": "Weniger anzeigen",
+    "explore": "Entdecken",
+    "visit": "Besuchen"
+  },
+  "testimonials": {
+    "title1": "Was unsere",
+    "title2": "Kunden sagen"
+  },
+  "contact": {
+    "title1": "Lassen Sie uns",
+    "title2": "Zusammenarbeiten",
+    "subtitle": "Wir sind immer offen für neue Projekte und kreative Ideen.",
+    "form": {
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "subject": "Betreff",
+      "message": "Erzählen Sie uns von Ihrem Projekt...",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Nachricht erfolgreich gesendet!",
+      "error": "Fehler beim Senden."
+    },
+    "info": {
+      "email": "E-Mail uns",
+      "email_value": "work.tehseen@gmail.com",
+      "social": "Folge uns",
+      "address": "Unser Büro",
+      "address_value": "Los Angeles, Amerika"
+    }
+  },
+  "skills": [
+    { "name": "C++" },
+    { "name": "Python" },
+    { "name": "Docker" },
+    { "name": "Figma" },
+    { "name": "TypeScript" },
+    { "name": "Node.js" },
+    { "name": "MongoDB" },
+    { "name": "Three.js" },
+    { "name": "Redux" },
+    { "name": "Javascript" },
+    { "name": "Git" },
+    { "name": "Github" },
+    { "name": "Sass" },
+    { "name": "GraphQl" },
+    { "name": "Vercel" },
+    { "name": "Next.js" },
+    { "name": "React" },
+    { "name": "Tailwind" },
+    { "name": "CSS" },
+    { "name": "HTML" }
+  ],
+  "services_list": [
+    {
+      "name": "Shopify Entwicklung",
+      "desc": "Hochkonvertierende Shopify-Shops, die auf Leistung, Skalierbarkeit und nahtlose Einkaufserlebnisse ausgelegt sind.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710364293287-4q1ngo.webp"
+    },
+    {
+      "name": "Webentwicklung",
+      "desc": "Schnelle, responsive und skalierbare Websites, die auf Ihre Geschäftsanforderungen zugeschnitten sind.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357775748-9vwq4q.jpeg"
+    },
+    {
+      "name": "Mobile App Entwicklung",
+      "desc": "Maßgeschneiderte mobile Apps, die für reibungslose Leistung und außergewöhnliche Benutzererfahrung entwickelt wurden.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706290914024-725ytf"
+    },
+    {
+      "name": "E-Commerce Entwicklung",
+      "desc": "Leistungsstarke E-Commerce-Lösungen, die den Umsatz steigern und die Customer Journey optimieren.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357668346-ke8kgt.jpeg"
+    },
+    {
+      "name": "UI/UX Design",
+      "desc": "Moderne, benutzerzentrierte Designs, die die Benutzerfreundlichkeit und das Engagement verbessern.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357680224-phijt.png"
+    },
+    {
+      "name": "Grafikdesign",
+      "desc": "Kreative Visuals und Branding, die Ihr Unternehmen von der Konkurrenz abheben.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357752227-6f5trs.jpeg"
+    },
+    {
+      "name": "DevOps-Services",
+      "desc": "Optimierung von Entwicklungs-Workflows und Infrastruktur für Geschwindigkeit und Zuverlässigkeit.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285511679-xe7r9t"
+    },
+    {
+      "name": "KI-Services",
+      "desc": "Nutzung künstlicher Intelligenz zur Automatisierung von Prozessen und Bereitstellung intelligenter Einblicke.",
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285431821-3lfg2r"
+    }
+  ],
+  "projects_list": [
+    {
+      "title": "UltraTech Dashboard",
+      "description": "Ein leistungsstarkes Analyse-Dashboard zur Überwachung von Cloud-Infrastruktur und Benutzerengagement.",
+      "techStack": ["React", "Next.js", "TailwindCSS"],
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285511679-xe7r9t"
+    },
+    {
+      "title": "E-Commerce Plattform",
+      "description": "Eine skalierbare E-Commerce-Lösung mit integrierten Zahlungsgateways und Bestandsverfolgung in Echtzeit.",
+      "techStack": ["Next.js", "Shopify", "Node.js"],
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285468702-igx05q"
+    },
+    {
+      "title": "KI-Bildgenerator",
+      "description": "Eine intuitive Webanwendung, die maschinelle Lernmodelle nutzt, um einzigartige digitale Kunst zu erzeugen.",
+      "techStack": ["React", "Python", "OpenAI API"],
+      "image": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285431821-3lfg2r"
+    }
+  ],
+  "testimonials_list": [
+    {
+      "name": "Samantha Wu",
+      "position": "Softwareentwicklerin",
+      "review": "Ich hatte das Vergnügen, eng mit dem Team an einem herausfordernden Projekt zusammenzuarbeiten. Sie sind hochqualifiziert und haben konsistent exzellente Ergebnisse geliefert."
+    },
+    {
+      "name": "David Rodriguez",
+      "position": "Projektmanager",
+      "review": "Sie bewiesen außergewöhnliche technische Fähigkeiten und eine starke Arbeitsmoral. Sie hielten Termine konsequent ein und produzierten hochwertigen Code."
+    }
+  ]
+}
+
