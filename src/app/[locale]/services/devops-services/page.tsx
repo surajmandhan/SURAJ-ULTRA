@@ -35,7 +35,7 @@ export default function DevOpsPage() {
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    let w: number, h: number, particles: Particle[] = [];
+    let w: number, h: number, centerX: number, centerY: number, particles: Particle[] = [];
     const BUSES: { x1: number, y1: number, x2: number, y2: number }[] = [];
 
     function init() {
@@ -44,8 +44,8 @@ export default function DevOpsPage() {
       h = canvas!.height = parent?.clientHeight || window.innerHeight; 
       BUSES.length = 0;
 
-      const centerX = w / 4;
-      const centerY = h / 2.5; 
+      centerX = w / 4;
+      centerY = h / 2.5; 
 
       // Define buses
       for (let i = -2; i <= 2; i++) {
