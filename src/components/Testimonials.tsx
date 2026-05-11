@@ -27,6 +27,30 @@ const Testimonials = () => {
       review: tl('1.review'),
       image: { url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357705657-aimydg.png" },
       enabled: true
+    },
+    {
+      _id: "t3",
+      name: "Marcus Thorne",
+      position: "CEO at TechVision",
+      review: "The team at UltraTechHub transformed our outdated platform into a high-performance engine. Their DevOps expertise is unmatched in the industry.",
+      image: { url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706290914024-725ytf" },
+      enabled: true
+    },
+    {
+      _id: "t4",
+      name: "Elena Rodriguez",
+      position: "Product Lead at CloudStream",
+      review: "Seamless integration and beautiful design. They don't just build websites; they build digital experiences that drive real business growth.",
+      image: { url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357680224-phijt.png" },
+      enabled: true
+    },
+    {
+      _id: "t5",
+      name: "James Wilson",
+      position: "Founder of ShopFlow",
+      review: "Our Shopify store's conversion rate increased by 40% after the redesign. The attention to detail and performance optimization is incredible.",
+      image: { url: "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/portfolio3/1710357668346-ke8kgt.jpeg" },
+      enabled: true
     }
   ];
 
@@ -43,7 +67,7 @@ const Testimonials = () => {
         )}
       />
       {/* Background Blur */}
-      <div className="absolute top-1/2 left-0 -translate-y-1/2 w-1/2 h-1/2 bg-blue-600/5 blur-[80px] rounded-full -z-10 blur-gradient" />
+      <div className="absolute top-1/2 left-0 -translate-y-1/2 w-1/2 h-1/2 bg-[#00ffcc]/5 blur-[120px] rounded-full -z-10 blur-gradient" />
       
       <SectionHeading className="md:pl-28 mb-16">
         <SlideIn className="text-white/40 block">{t('title1')}</SlideIn>
@@ -51,8 +75,8 @@ const Testimonials = () => {
       </SectionHeading>
  
       <div className="flex flex-col gap-8">
-        <TestimonialRow testimonials={testimonials} speed="slow" direction="right" />
-        <TestimonialRow testimonials={testimonials} speed="normal" direction="left" />
+        <TestimonialRow testimonials={testimonials} speed="fast" direction="right" />
+        <TestimonialRow testimonials={testimonials} speed="fast" direction="left" />
       </div>
     </section>
   );
